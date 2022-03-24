@@ -1,15 +1,5 @@
-
-
-
 import re
-
-
-
-
 file = open('Chapters.txt', 'r')
-
-
-
 with open('added.csv','w') as added:
     chapter_no = 0
     for i in file:
